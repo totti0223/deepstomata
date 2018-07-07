@@ -16,7 +16,7 @@ from skimage.color import rgb2gray
 from skimage import measure
 #import matplotlib.pyplot as plt
 
-from . import stomata_input, stomata_model
+from . import stomata_model
 
 import tensorflow as tf
 flags = tf.app.flags
@@ -472,9 +472,9 @@ def stomata_stat_batch_classify(image, region_number, ckpt_path):
     output
         most likely stat of stomata, confidential level of most likely stat of stomata
     '''
-    DST_INPUT_SIZE = stomata_input.DST_INPUT_SIZE
-    NUM_CLASS = stomata_input.NUM_CLASS
-    tf.reset_default_graph()
+    DST_INPUT_SIZE = 56
+    NUM_CLASS = 4
+     tf.reset_default_graph()
 
     image = tf.reshape(image, [-1, DST_INPUT_SIZE, DST_INPUT_SIZE, 3])
     logits = stomata_model.tf_inference(image, region_number, DST_INPUT_SIZE, NUM_CLASS)
