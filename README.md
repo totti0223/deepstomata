@@ -12,7 +12,7 @@ A three step image analysis program for quantification of stomatal aperture from
 2. Classifying the status (open, partially open, closed, false positive) by CNN.
 3. Pore quantification responsive to the object status.
 
-<img src="https://github.com/totti0223/deepstomata/blob/master/images/main.jpg" width="600">
+<img src="https://github.com/totti0223/deepstomata/blob/master/images/main.jpg" width="900">
 
 # Author
 
