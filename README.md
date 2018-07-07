@@ -15,40 +15,26 @@ A three step image analysis program for quantification of stomatal aperture from
 <img src="https://github.com/totti0223/deepstomata/blob/master/images/main.jpg" width="600">
 
 # Author
-Yosuke Toda, Ph.D (Agriculture)
 
+Yosuke Toda
+Ph.D (Agriculture)
+JST PRESTO / ITbM invited researcher
+Institute of Transformative Bio-Molecule (ITbM)
+Nagoya University
 tyosuke@aquaseerser.com
-
-Post Doctoral Researcher
-
-Lab of Plant Physiology
-
-Department of Science
-
-Nagoya University, Japan
 
 ## Requirements
 
 python>3
-
 matplotlib==1.5.1
-
 numpy==1.11.2
-
 scipy==0.18.1
-
 scikit_image==0.12.3
-
 tensorflow==0.10.0rc0
-
-Pillow==3.2.0
-
+PIL==4.0.0
 common==0.1.2
-
 cv2==1.0
-
 dlib==19.1.0
-
 setuptools==32.3.1
 
 ## Installation
@@ -73,7 +59,6 @@ pip install .
 
 ~~~~
 #cv2 ==1.0
-#dlib == 19.1.0
 ~~~~
 and install respectively via conda install
 
@@ -90,7 +75,7 @@ deepstomata.cui("PATH/TO/THE/DIRECTORY_OR_IMAGES")
 ## Example
 
 ### 1
-Analyze a directory containing 4 jpeg images in the example folder
+Analyze a directory containing jpeg images in the example folder
 
 ~~~~
 import bmicp
