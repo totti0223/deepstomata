@@ -2,6 +2,7 @@
 # DeepStomata (stomatal pore quantifier)
 ### Facial Recognition Technology for Automated Stomatal Aperture Measurement
 At a glance
+
 <img src="https://github.com/totti0223/deepstomata/blob/master/images/ataglance.jpg" width="480">
 
 
@@ -11,7 +12,7 @@ A three step image analysis program for quantification of stomatal aperture from
 2. Classifying the status (open, partially open, closed, false positive) by CNN.
 3. Pore quantification responsive to the object status.
 
-<img src="https://github.com/totti0223/deepstomata/blob/master/images/main.jpg" width="480">
+<img src="https://github.com/totti0223/deepstomata/blob/master/images/main.jpg" width="600">
 
 # Author
 Yosuke Toda, Ph.D (Agriculture)
