@@ -67,17 +67,8 @@ and install respectively via conda install
 - In terminal
 
 ~~~~
+Analyze a directory containing jpeg images in the example folder
 python
 import deepstomata
-deepstomata.cui("PATH/TO/THE/DIRECTORY_OR_IMAGES")
-~~~~
-
-## Example
-
-### 1
-Analyze a directory containing jpeg images in the example folder
-
-~~~~
-import bmicp
-bmicp.cui("PATH_TO_THE_EXAMPLE_FOLDER/examples")
+deepstomata.cui("PATH_TO_THE_EXAMPLE_FOLDER/examples")
 ~~~~
