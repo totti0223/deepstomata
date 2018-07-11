@@ -85,9 +85,8 @@ conda install -c menpo opencv3 dlib
 
 - In terminal
 
-~~~~
 Analyze a directory containing jpeg images in the example folder
-python
+~~~~
 from deepstomata import *
 deepstomata("PATH_TO_THE_EXAMPLE_FOLDER/examples")
 ~~~~
