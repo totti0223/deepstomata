@@ -77,8 +77,10 @@ updated 11/7/2018, commented out by default
 
 and install respectively via conda install 
 
-ex. conda install -c menpo opencv3; conda install -c menpo dlib
-
+ex. 
+~~~~
+conda install -c menpo opencv3; conda install -c menpo dlib
+~~~~
 ## Usage
 
 - In terminal
