@@ -79,7 +79,7 @@ and install respectively via conda install
 
 ex. 
 ~~~~
-conda install -c menpo opencv3; conda install -c menpo dlib
+conda install -c menpo opencv3 dlib
 ~~~~
 ## Usage
 
