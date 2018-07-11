@@ -474,7 +474,7 @@ def stomata_stat_batch_classify(image, region_number, ckpt_path):
     '''
     DST_INPUT_SIZE = 56
     NUM_CLASS = 4
-     tf.reset_default_graph()
+    tf.reset_default_graph()
 
     image = tf.reshape(image, [-1, DST_INPUT_SIZE, DST_INPUT_SIZE, 3])
     logits = stomata_model.tf_inference(image, region_number, DST_INPUT_SIZE, NUM_CLASS)
