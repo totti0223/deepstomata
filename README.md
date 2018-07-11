@@ -28,15 +28,25 @@ tyosuke@aquaseerser.com
 
 
 python>3 #python 3.5 preferred for easy installation of opencv3 via conda
+
 matplotlib==2.0.0
+
 numpy==1.11.2
+
 scipy==0.18.1
+
 scikit_image==0.14.0
+
 tensorflow==0.12.0rc0
+
 PIL==4.3.0
+
 common==0.1.2
+
 cv2==1.0
+
 dlib==19.1.0
+
 setuptools==32.3.1
 
 ## Installation
@@ -65,7 +75,10 @@ pip install .
 ~~~~
 updated 11/7/2018, commented out by default
 
-and install respectively via conda install ex. conda install -c menpo opencv3; conda install -c menpo dlib
+and install respectively via conda install 
+
+ex. conda install -c menpo opencv3; conda install -c menpo dlib
+
 ## Usage
 
 - In terminal
