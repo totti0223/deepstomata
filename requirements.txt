@@ -1,3 +1,6 @@
+configparser
+pathlib
+statistics
 matplotlib==2.0.0
 numpy==1.11.2
 scipy==0.18.1
