@@ -24,14 +24,16 @@ Nagoya University
 tyosuke@aquaseerser.com
 
 ## Requirements
+### highly recommended to run under anaconda
 
-python>3
-matplotlib==1.5.1
+
+python>3 #python 3.5 preferred for easy installation of opencv3 via conda
+matplotlib==2.0.0
 numpy==1.11.2
 scipy==0.18.1
-scikit_image==0.12.3
-tensorflow==0.10.0rc0
-PIL==4.0.0
+scikit_image==0.14.0
+tensorflow==0.12.0rc0
+PIL==4.3.0
 common==0.1.2
 cv2==1.0
 dlib==19.1.0
@@ -59,9 +61,11 @@ pip install .
 
 ~~~~
 #cv2 ==1.0
+#dlib==19.1.0
 ~~~~
-and install respectively via conda install
+updated 11/7/2018, commented out by default
 
+and install respectively via conda install ex. conda install -c menpo opencv3; conda install -c menpo dlib
 ## Usage
 
 - In terminal
@@ -69,6 +73,8 @@ and install respectively via conda install
 ~~~~
 Analyze a directory containing jpeg images in the example folder
 python
-import deepstomata
-deepstomata.cui("PATH_TO_THE_EXAMPLE_FOLDER/examples")
+from deepstomata import *
+deepstomata("PATH_TO_THE_EXAMPLE_FOLDER/examples")
 ~~~~
+
+will generate annotated folder, FOLDER_NAME_all.csv, FOLDER_NAME_clasification_count.csv, vervose folder
