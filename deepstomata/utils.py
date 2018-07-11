@@ -704,9 +704,11 @@ def analyze(image_path):
                     aperture =  um + "um"                    
             else:
                 um = "not measured"
-                aperture =  um
-
-            print(region_stat,aperture,end=" ")
+                aperture = um
+            try:
+                print(region_stat,aperture,end=",")
+            except:
+                print(region_stat,aperture)
             notxt = "No." + str(no)
 
             #adjust background size for text
