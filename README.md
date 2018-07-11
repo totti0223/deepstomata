@@ -23,6 +23,9 @@ Institute of Transformative Bio-Molecule (ITbM)
 Nagoya University
 tyosuke@aquaseerser.com
 
+## Author's env.
+Tested in Mac OSX, anaconda env. python 3.5
+
 ## Requirements
 ### highly recommended to run under anaconda
 
